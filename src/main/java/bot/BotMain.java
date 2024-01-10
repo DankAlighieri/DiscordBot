@@ -13,7 +13,7 @@ import reactor.core.publisher.Mono;
 public class BotMain {
     public static void main(String[] args) {
 //        creating a bot by instancing a DiscordClient class
-        DiscordClient client = DiscordClient.create("MTE5Mzg4Nzc1NzQzMzU2OTM3MA.Ge16nD.rtobI15hWrmZgk3TtTegS1f_HrWk5fSxNpWPFA");
+        DiscordClient client = DiscordClient.create("TOKEN");
 
 //      creating an asynchronous process that returns nothing just to see the bot online
 //        Mono<Void> login = client.withGateway((GatewayDiscordClient gateway) -> Mono.empty());
